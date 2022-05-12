@@ -1,10 +1,2 @@
-let patientId = 50;
-patientId = '50';
-let isEnrolled = true;
-const patientInfo = {
-  firstName: 'Ana',
-  lastName: 'Santos',
-};
-const patientEmail = 'ana@email.com';
-
-console.log(typeof patientId);
+const base = 5;
+var height = 8;
