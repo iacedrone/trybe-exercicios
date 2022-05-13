@@ -3,4 +3,4 @@ let somaDosNumeros = 0
 for (let index = 0; index < numbers.length; index += 1) {
     somaDosNumeros += numbers[index]
 }
-console.log(somaDosNumeros)
+console.log(somaDosNumeros / numbers.length)
