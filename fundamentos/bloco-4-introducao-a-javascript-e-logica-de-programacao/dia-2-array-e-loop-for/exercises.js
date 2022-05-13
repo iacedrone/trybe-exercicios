@@ -1,10 +1,14 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maior = numbers[0]
+let impares = 0
 
-for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] > maior) {
-        maior = numbers[index]
+for (index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 !== 0) {
+        impares += 1
     }
 }
 
-console.log(maior)
+if (impares > 0) {
+    console.log('Você tem', impares, 'números impares')
+} else {
+    console.log('Nenhum número ímpar')
+}
