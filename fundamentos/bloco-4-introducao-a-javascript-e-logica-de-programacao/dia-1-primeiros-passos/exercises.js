@@ -1,9 +1,8 @@
-const a = 1;
-const b = 1;
-const c = 2;
+const custo = 100;
+const venda = 200;
 
-if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
-    console.log(true)
+if (custo < 0 || venda < 0) {
+    console.log('ERRO')
 } else {
-    console.log(false)
+    console.log('O lucro será de', (venda - (custo + custo / 100 * 20)) * 1000)
 }
