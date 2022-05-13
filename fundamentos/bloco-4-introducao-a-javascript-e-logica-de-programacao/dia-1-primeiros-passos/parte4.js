@@ -13,3 +13,4 @@ if (currentHour >= 22) {
     message = 'Hmmm, cheiro de café recém passado'
 }
 
+console.log(message);
