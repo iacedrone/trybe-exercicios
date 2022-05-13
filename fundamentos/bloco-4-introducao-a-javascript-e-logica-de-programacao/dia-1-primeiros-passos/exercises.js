@@ -1,8 +1,11 @@
-const a = 5
-const b = 2
+const a = 8;
+const b = 9;
 
-console.log('Adição=', a + b);
-console.log('Subtração=', a - b);
-console.log('Multiplicação=', a * b);
-console.log('Divisão=', a / b);
-console.log('Módulo=', a % b);
+if (a > b) {
+    console.log(a)
+} else if (b > a) {
+    console.log(b)
+} else {
+    console.log('Os números são iguais')
+}
+
