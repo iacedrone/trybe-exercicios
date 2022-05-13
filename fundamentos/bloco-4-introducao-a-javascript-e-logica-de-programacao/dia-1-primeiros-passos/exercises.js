@@ -1,9 +1,9 @@
-const value = 0;
+const angulo1 = 60;
+const angulo2 = 60;
+const angulo3 = 60;
 
-if (value > 0) {
-    console.log('positive')
-} else if (value < 0) {
-    console.log('negative')
+if (angulo1 + angulo2 + angulo3 === 180) {
+    console.log(true)
 } else {
-    console.log('zero')
+    console.log(false)
 }
