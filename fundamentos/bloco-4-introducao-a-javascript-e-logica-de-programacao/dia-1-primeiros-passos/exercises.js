@@ -1,9 +1,18 @@
-const angulo1 = 60;
-const angulo2 = 60;
-const angulo3 = 60;
+let peca = 'Rei';
+peca = peca.toLowerCase()
 
-if (angulo1 + angulo2 + angulo3 === 180) {
-    console.log(true)
+if (peca === 'rei') {
+    console.log('Qualquer direção')
+} else if (peca === 'rainha') {
+    console.log('Qualquer direção')
+} else if (peca === 'torre') {
+    console.log('Linha reta')
+} else if (peca === 'bispo') {
+    console.log('Diagonal')
+} else if (peca === 'cavalo') {
+    console.log('Se move em L')
+} else if (peca === 'peão') {
+    console.log('Para a frente e para diagonal')
 } else {
-    console.log(false)
+    console.log('ERRO')
 }
