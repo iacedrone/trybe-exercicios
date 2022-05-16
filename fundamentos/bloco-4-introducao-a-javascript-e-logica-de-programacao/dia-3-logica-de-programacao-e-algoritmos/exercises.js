@@ -1,17 +1,18 @@
-let array = ['java', 'javascript', 'python', 'html', 'css'];
-let maiorPalavra = array[0]
-let menorPalavra = array[0]
+let divisores = 0
+let nPrimos = 0
+let listaDeNumerosPrimos = [1]
 
-for (let iMaior = 0; iMaior < array.length; iMaior += 1) {
-    if (array[iMaior].length > maiorPalavra.length) {
-        maiorPalavra = array[iMaior]
+for (let numero = 1; numero <= 10; numero += 1) {
+    divisores = 0
+    for (let antecessor = 1; antecessor <= numero; antecessor += 1) {
+        if (numero % antecessor === 0) {
+            divisores += 1
+        }
+    }
+    if (divisores === 2) {
+        listaDeNumerosPrimos.push(numero)
+
     }
 }
 
-for (let iMenor = 0; iMenor < array.length; iMenor += 1) {
-    if (array[iMenor].length < menorPalavra.length) {
-        menorPalavra = array[iMenor]
-    }
-}
-
-console.log(menorPalavra);
+console.log(listaDeNumerosPrimos[listaDeNumerosPrimos.length - 1])
