@@ -1,6 +1,6 @@
-let fatorial = 10;
-let somaFatorial = 0;
-for (let index = 1; index <= 10; index +=1) {
-    somaFatorial = somaFatorial += index
+let word = 'tryber';
+let palavraInvertida = [];
+for (index = word.length - 1; index >= 0; index -= 1) {
+    palavraInvertida.push(word[index])
 }
-console.log(somaFatorial);
+console.log(palavraInvertida)
