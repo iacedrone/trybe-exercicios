@@ -26,3 +26,23 @@ li {
 li em {
     font-weight: bold;
 }
+
+#linguagens-de-programacao li:nth-of-type(1) {
+    color: blue;
+}
+
+#linguagens-de-programacao li:nth-of-type(2) {
+    color: blue;
+}
+
+#linguagens-de-programacao li:nth-of-type(3) {
+    color: blue;
+}
+
+#linguagens-de-programacao #java {
+    background-color: pink;
+}
+
+#linguagens-de-programacao #javascript {
+    background-color: pink;
+}
