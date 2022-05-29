@@ -1,49 +1,48 @@
-div:hover {
-    border-style: solid;
-    border-color: solid black;
-}
-
-div:nth-of-type(1) {
-    background-color: pink;
-}
-
-div:nth-of-type(2) {
+ol li {
     background-color: yellow;
 }
 
-div:nth-of-type(3) {
-    background-color: purple;
-    height: 100px;
+ol li:nth-of-type(even) {
+    color: green;
 }
 
-div:nth-of-type(4) {
-    background-color: green;
+ol li:nth-of-type(odd) {
+    text-transform: uppercase;
 }
 
-div:nth-of-type(5) {
-    background-color: red;
-}
-
-div:nth-of-type(1) h3 {
+#h {
     color: red;
 }
 
-div:nth-of-type(2) h3 {
-    color: grey;
+#h em {
+    font-size: 40px;
+    border: 1px solid black;
 }
 
-div:nth-of-type(3) h3 {
-    color: purple;
+li {
+    font-size: 20px;
 }
 
-div:nth-of-type(4) h3 {
-    color: orange;
+li em {
+    font-weight: bold;
 }
 
-div:nth-of-type(5) h3 {
-    color: cyan;
+#linguagens-de-programacao li:nth-of-type(1) {
+    color: blue;
 }
 
-div:nth-of-type(odd) h3 {
-    font-style: italic;
+#linguagens-de-programacao li:nth-of-type(2) {
+    color: blue;
+}
+
+#linguagens-de-programacao li:nth-of-type(3) {
+    color: blue;
+}
+
+#linguagens-de-programacao #java {
+    background-color: pink;
+}
+
+#linguagens-de-programacao #javascript {
+    background-color: pink;
 }
