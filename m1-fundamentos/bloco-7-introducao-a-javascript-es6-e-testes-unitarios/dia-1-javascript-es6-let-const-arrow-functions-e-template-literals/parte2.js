@@ -1,10 +1,11 @@
-const fatorar = (numero) => {
-    let fatorial = numero;
-    for (let index = numero - 1; index > 0; index --) {
-        fatorial = fatorial * index
+const maiorPalavra = (frase) => {
+    let palavra = ''
+    const fraseDividida = frase.split(' ');
+    for (let index = 0; index < fraseDividida.length; index ++){
+        (fraseDividida[index].length > palavra.length) ? palavra = fraseDividida[index] : palavra = palavra;
     }
 
-    return(fatorial);
+    return(palavra)
 }
 
-console.log(fatorar(5));
+console.log(maiorPalavra('Antônio foi no banheiro e não sabemos o que aconteceu'));
