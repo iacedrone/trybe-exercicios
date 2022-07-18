@@ -9,3 +9,6 @@ test('O retorno de sum(0, 0) é 0?', () => {
 test('A função sum lança um erro quando os parâmetros são 4 e "5"?', () => {
     expect(() => sum(4,"5")).toThrowError()
 })
+test('A mensagem de erro é "parameters must be numbers" quando realiza a chamada sum(4, "5")?', () => {
+    expect(() => sum(4, "5")).toThrowError('parameters must be numbers')
+})
