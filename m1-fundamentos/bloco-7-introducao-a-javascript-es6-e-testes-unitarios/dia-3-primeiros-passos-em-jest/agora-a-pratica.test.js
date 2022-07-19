@@ -19,3 +19,8 @@ test('4. Teste se as demais letras/números não são convertidos para cada caso
     expect(encode('bola')).toBe('b4l1')
     expect(decode('1446')).toBe('aoo6')
 })
+
+test('5. Teste se a string que é retornada pelas funções têm o mesmo número de caracteres que a string passada como parâmetro', () => {
+    const palavraTeste = 'okaida'
+    expect(encode(palavraTeste).length).toBe(palavraTeste.length)
+})
