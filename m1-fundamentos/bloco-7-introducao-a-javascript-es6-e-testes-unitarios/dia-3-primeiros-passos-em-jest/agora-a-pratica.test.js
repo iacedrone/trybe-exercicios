@@ -8,3 +8,9 @@ test('Faça uma chamada com um número divisível por 3, outro por 5 e verifique
     expect(myFizzBuzz(3)).toBe('fizz')
     expect(myFizzBuzz(5)).toBe('buzz')
 })
+
+describe('Questões 4 e 5', () => {
+    test('Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado', () => {
+        expect(myFizzBuzz(7)).toBe(7)
+    })
+})
