@@ -5,3 +5,8 @@ const wakeUp = () => {
 const breakfast = () => {
     return('Bora tomar café!!')
 }
+
+const letsSleep = () => {
+    return('Partiu dormir!!')
+}
+
