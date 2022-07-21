@@ -1,3 +1,7 @@
 const wakeUp = () => {
-    return ('Acordando!!')
+    return('Acordando!!')
+}
+
+const breakfast = () => {
+    return('Bora tomar café!!')
 }
