@@ -10,3 +10,8 @@ const letsSleep = () => {
     return('Partiu dormir!!')
 }
 
+const doingThings = (func) => {
+    console.log(func);
+}
+
+doingThings(letsSleep())
