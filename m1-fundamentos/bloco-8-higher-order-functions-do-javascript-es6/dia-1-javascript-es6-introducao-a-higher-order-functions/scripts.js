@@ -1,15 +1,9 @@
-const employeesGenerator = (fullName) => {
-    let email = `${fullName.toLowerCase().replaceAll(' ', '_')}@betrybe.com`
-    return {fullName, email}
+const verifyIsEqual = (myNumber, number) => myNumber === number;
+
+const riffleResult = (myNumber, callback) => {
+    const number = Math.floor(Math.random() * (5)) + 1;
+
+    return (callback(myNumber, number)) ? `Parabéns, você ganhou; pois seu número era o ${number} e o sorteado era ${number}` : `Tente novamente, seu número ${myNumber} não é o mesmo que o sorteado (${number})`
 }
 
-const newEmployees = () => {
-    const employees = {
-      id1: employeesGenerator('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
-      id2: employeesGenerator('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
-      id3: employeesGenerator('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
-    }
-    return employees;
-  };
-
-  console.log(newEmployees());
+console.log(riffleResult(2, verifyIsEqual));
