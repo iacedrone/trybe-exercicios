@@ -1,5 +1,3 @@
-// callbacks-para-fixar-01.js
-
 const userFullName = ({ firstName, lastName }) => `Olá! Meu nome é ${firstName} ${lastName}`;
 const userNationality = ({ firstName, nationality }) => `${firstName} é ${nationality}`;
 
