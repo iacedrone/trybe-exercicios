@@ -60,56 +60,56 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ### Bloco 9: JavaScript e Testes Assíncronos
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
 
 ### Bloco 10: Introdução - React
 
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
+- [x] 10-1: _'Hello, world!' no React!_
+- [x] 10-2: _Componentes React_
 
 ### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Components com estado e eventos_
-- [ ] 11-2: _Formulários no React_
+- [x] 11-1: _Components com estado e eventos_
+- [x] 11-2: _Formulários no React_
 
 ### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
+- [x] 12-1: _Ciclo de vida de componentes_
+- [x] 12-2: _React Router_
 
 ### Bloco 13: Metodologias Ágeis
 
-- [ ] 13-1: _Metodologias Ágeis_
+- [x] 13-1: _Metodologias Ágeis_
 
 ### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTL - Testando React Router_
+- [x] 14-1: _RTL - Primeiros passos_
+- [x] 14-2: _RTL - Mocks e Inputs_
+- [x] 14-3: _RTL - Testando React Router_
 
 ### Bloco 15: Gerenciamento de estado com Redu
 
-- [ ] 15-1: _Introdução ao Redu - O estado global da aplicação_
-- [ ] 15-2: _Usando o Redu no React_
-- [ ] 15-3: _Usando o Redu no React - Prática_
-- [ ] 15-4: _Usando o Redu no React - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redu_
+- [x] 15-1: _Introdução ao Redu - O estado global da aplicação_
+- [x] 15-2: _Usando o Redu no React_
+- [x] 15-3: _Usando o Redu no React - Prática_
+- [x] 15-4: _Usando o Redu no React - Actions Assíncronas_
+- [x] 15-5: _Testes em React-Redu_
 
 ### Bloco 16: Projeto Jogo de Trivia
 
 ### Bloco 17: Contet API e React Hooks
 
-- [ ] 18-1: _Contet API do React_
-- [ ] 18-2: _React Hooks - useState e useContet_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 18-1: _Contet API do React_
+- [x] 18-2: _React Hooks - useState e useContet_
+- [x] 18-3: _React Hooks - useEffect e Hooks customizados_
 
 ### Bloco 18: Projeto App de Receitas
 
@@ -117,8 +117,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ### Bloco 19: Docker: Utilizando Containers
 
-- [ ] 19-1: _Utilizando Containers - Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [x] 19-1: _Utilizando Containers - Docker_
+- [x] 19-2: _Manipulação e Criação de Imagens no Docker_
 - [ ] 19-3: _Orquestrando Containers com Docker Compose_
 
 ### Bloco 20: Introdução à SQL
